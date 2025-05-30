@@ -1,0 +1,10 @@
+bin/
+.gradle/
+build/
+lwjgl-rundir/_eagstorage.p.dat
+lwjgl-rundir/_eagstorage.g.dat
+lwjgl-rundir/_eagstorage.a.dat
+lwjgl-rundir/filesystem/
+wasm_gc_teavm/bin/
+wasm_gc_teavm/build/
+wasm_gc_teavm/.gradle/

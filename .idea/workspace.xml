@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bf56493-3337-4b11-98fb-a5d499cdbe34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Alpha-1.1.2_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lwjgl/java/lwjgl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/OfflineDownloadTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/OfflineDownloadTemplate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/assets.epk" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/assets.epk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/classes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/classes.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/eaglercraft.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/eaglercraft.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/a1.0.14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/art/kz.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/art/kz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_font.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_font.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_font.vsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_font.vsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_particle.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_particle.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_particle.vsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/accel_particle.vsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/core.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/core.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/core.vsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/core.vsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/gles2_compat.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/gles2_compat.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/hw_fingerprint.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/hw_fingerprint.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/local.vsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/local.vsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/post_fxaa.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/post_fxaa.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/texture_blit.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/texture_blit.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/texture_blit.vsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/texture_blit.vsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/texture_mix.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/assets/eagler/glsl/texture_mix.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/gui/items.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/gui/items.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/misc/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/mob/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/mob/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/mob/slime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/hal1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/hal2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/hal3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/hal4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/nuance1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/nuance2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/piano1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/piano2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/music/piano3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave10.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave11.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave12.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave13.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave6.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave7.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave8.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/cave/cave9.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/rain1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/rain2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/rain3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/rain4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/thunder1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/thunder2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/ambient/weather/thunder3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/damage/fallbig1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/damage/fallbig2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/damage/fallsmall.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/damage/hurtflesh1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/damage/hurtflesh2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/damage/hurtflesh3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/cloth1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/cloth2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/cloth3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/cloth4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/grass1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/grass2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/grass3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/grass4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/gravel1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/gravel2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/gravel3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/gravel4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/sand1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/sand2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/sand3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/sand4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/snow1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/snow2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/snow3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/snow4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/stone1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/stone2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/stone3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/stone4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/wood1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/wood2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/wood3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/dig/wood4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fire/fire.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fire/ignite.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/blast1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/blast_far1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/largeBlast1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/largeBlast_far1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/launch1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/twinkle1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/fireworks/twinkle_far1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/liquid/lava.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/liquid/lavapop.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/liquid/splash.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/liquid/water.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/minecart/base.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/minecart/inside.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/breathe1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/breathe2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/breathe3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/breathe4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/death.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/hit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/hit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/hit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/blaze/hit4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/hiss1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/hiss2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/hiss3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/hitt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/hitt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/hitt3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/meow1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/meow2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/meow3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/meow4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/purr1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/purr2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/purr3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/purreow1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cat/purreow2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/chicken1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/chicken2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/chicken3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/chickenhurt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/chickenhurt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/chickenplop.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cow1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cow2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cow3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cow4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cowhurt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cowhurt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/cowhurt3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/creeper1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/creeper2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/creeper3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/creeper4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/creeperdeath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/death.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/hit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/hit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/hit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/hit4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/idle1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/idle2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/idle3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/idle4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/idle5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/portal.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/portal2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/scream1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/scream2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/scream3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/scream4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/endermen/stare.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/affectionate scream.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/charge.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/death.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/fireball4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan6.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/moan7.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/scream1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/scream2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/scream3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/scream4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/ghast/scream5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/death.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/hit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/hit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/hit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/hit4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/throw.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/walk1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/walk2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/walk3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/irongolem/walk4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/big1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/big2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/big3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/big4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/jump1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/jump2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/jump3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/jump4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/small1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/small2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/small3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/small4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/magmacube/small5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/pig1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/pig2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/pig3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/pigdeath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/sheep1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/sheep2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/sheep3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/hit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/hit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/hit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/kill.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/say1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/say2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/say3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/say4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/step1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/step2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/step3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/silverfish/step4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeleton1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeleton2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeleton3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeletondeath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeletonhurt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeletonhurt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeletonhurt3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/skeletonhurt4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slime1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slime2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slime3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slime4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slime5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slimeattack1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/slimeattack2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/spider1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/spider2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/spider3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/spider4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/spiderdeath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/bark1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/bark2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/bark3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/death.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/growl1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/growl2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/growl3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/howl1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/howl2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/hurt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/hurt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/hurt3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/panting.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/shake.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/wolf/whine.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/metal1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/metal2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/metal3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/wood1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/wood2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/wood3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/wood4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie/woodbreak.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombie3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiedeath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiehurt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiehurt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpig1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpig2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpig3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpig4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpigangry1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpigangry2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpigangry3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpigangry4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpigdeath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpighurt1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/mob/zombiepig/zpighurt2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/bass.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/bassattack.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/bd.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/harp.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/hat.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/pling.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/note/snare.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/portal/portal.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/portal/travel.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/portal/trigger.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/bow.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/bowhit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/bowhit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/bowhit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/bowhit4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/break.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/breath.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/burp.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/chestclosed.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/chestopen.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/click.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/door_close.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/door_open.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/drink.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/drr.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/eat1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/eat2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/eat3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/explode1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/explode2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/explode3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/explode4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/fizz.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/fuse.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/glass1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/glass2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/glass3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/hurt.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/levelup.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/old_explode.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/orb.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/pop.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/random/splash.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/cloth1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/cloth2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/cloth3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/cloth4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/sand1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/sand2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/sand3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/sand4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/snow1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/snow2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/snow3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/step/snow4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/tile/piston/in.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/sound/tile/piston/out.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/terrain.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl-rundir/resources/terrain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl-rundir/resources/title/splashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/BaseNCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/Display.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EagRuntime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EagUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EaglerInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EaglerOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EaglerZLIB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EaglercraftUUID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/EaglercraftVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/Filesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/GamepadConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/HFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/HString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/IOUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/JDKBackports.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/Keyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/KeyboardConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/Random.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/crypto/GeneralDigest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/crypto/MD5Digest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/crypto/SHA1Digest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/crypto/SHA256Digest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/AbstractWebSocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumCursorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumEaglerConnectionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumPlatformANGLE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumPlatformAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumPlatformOS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumPlatformType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumServerRateLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/EnumWebViewContentMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/FileChooserResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/GLObjectMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IAudioCacheLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IAudioHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IAudioResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IBufferGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IClientConfigAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IClientConfigAdapterHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IEaglerFilesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IFramebufferGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IObjectGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IPCPacketData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IProgramGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IQueryGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IRenderbufferGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IShaderGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/ITextureGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IUniformGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IVertexArrayGL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IWebSocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/IWebSocketFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/PlatformIncompatibleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/RamdiskFilesystemImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/RuntimeInitializationFailureException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/VFSFilenameIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/VFSFilenameIteratorNonRecursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/buffer/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/buffer/ByteBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/buffer/EaglerBufferInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/buffer/FloatBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/buffer/IntBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/buffer/ShortBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/EaglerFileSystemException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFSFilenameIteratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFSIterator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFSListFilenamesIteratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFSListFilesIteratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFile2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFileInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/internal/vfs2/VFileOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/minecraft/EaglerFontRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/minecraft/FontMappingHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/DisplayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/DrawUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/EaglercraftGPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/ExtGLEnums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/FixedFunctionPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/FixedFunctionShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/GLObjectRecycler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/GLSLHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/GameOverlayFramebuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/GlStateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/HighPolyMesh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/IExtPipelineCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/ImageData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/InstancedFontRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/OpenGlHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/RealOpenGLEnums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/SoftGLVertexArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/SoftGLVertexState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/StreamBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/Tessellator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/TextureFormatHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/VSHInputLayoutParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/VertexFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/WorldRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/opengl/WorldVertexBufferUploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/profile/EaglerProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Matrix3f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Matrix4f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Quaternion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/ReadableVector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/ReadableVector2f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/ReadableVector3f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/ReadableVector4f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Vector2f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Vector3f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/Vector4f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/WritableVector2f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/WritableVector3f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/vector/WritableVector4f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockCactus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockCactus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockClay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockFence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockFire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockFire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockFlowing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockFlowing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockJukeBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockReed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockSnow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockSnow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockSnowBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockSnowBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockStationary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/BlockStationary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChatAllowedCharacters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Chunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Chunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChunkLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChunkLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChunkProviderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChunkProviderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChunkProviderGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ChunkProviderGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CompressedStreamTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CompressedStreamTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CraftingInventoryCB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CraftingInventoryPlayerCB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CraftingInventoryWorkbenchCB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CraftingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/CraftingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityArrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityArrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityChicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityClientPlayerMP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityCow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityCreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityCreature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityCreeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityCreeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityFallingSand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityFallingSand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityLiving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityLiving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityMinecart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityMinecart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityMob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityMob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityOtherPlayerMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityOtherPlayerMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityPickupFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityPickupFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityPlayerSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityPlayerSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySlime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySlimeFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySlimeFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySnowball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySnowball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntitySpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityTNTPrimed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EntityTNTPrimed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EnumArt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/EnumArt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GameSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiConflictWarning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiConnecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiConnecting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiCrafting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiCrafting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiDeleteWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiDeleteWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiDownloadTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiDownloadTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiEditSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiEditSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiIngame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiIngame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiIngameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiIngameMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiMainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiMultiplayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiSelectWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiSelectWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiSlider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiTextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/IMobs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/IWorldAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/IWorldAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/InventoryCrafting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/InventoryCrafting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/InventoryPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/InventoryPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/IsoImageBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/IsoImageBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemHoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemHoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemMinecart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemMinecart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemReed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemSpade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemSpade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ItemTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/LoadingScreenRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/LoadingScreenRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MapGenBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MapGenCaves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MetadataChunkBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MetadataChunkBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MinecraftException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelBiped.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelBiped.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelChicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelCow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelCow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelSheepFur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelSlime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/ModelSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MovementInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MovementInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MovementInputFromOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/MovementInputFromOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/NBTTagCompound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/NBTTagCompound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/NetClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/NetClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/NetHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/NetHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet0KeepAlive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet0KeepAlive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet10Flying.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet11PlayerPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet12PlayerLook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet13PlayerLookMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet13PlayerLookMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet14BlockDig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet14BlockDig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet15Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet15Place.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet16BlockItemSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet16BlockItemSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet17AddToInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet18ArmAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet1Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet20NamedEntitySpawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet21PickupSpawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet22Collect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet23VehicleSpawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet24MobSpawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet255KickDisconnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet255KickDisconnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet29DestroyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet2Handshake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet30Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet31RelEntityMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet32EntityLook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet33RelEntityMoveLook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet34EntityTeleport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet3Chat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet4UpdateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet50PreChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet50PreChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet51MapChunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet51MapChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet52MultiBlockChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet52MultiBlockChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet53BlockChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet53BlockChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet59ComplexEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet5PlayerInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Packet6SpawnPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PanelCrashReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PanelCrashReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerControllerCreative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerControllerCreative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerControllerMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerControllerMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerControllerSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/PlayerControllerSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RecipesArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RecipesArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RecipesWeapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RecipesWeapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderChicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderCow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderGlobal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderGlobal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderLiving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderLiving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderMinecart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderMinecart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/RenderSlime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Slot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SlotCrafting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SlotCrafting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SlotInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SlotInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SoundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SoundManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SpawnerAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SpawnerAnimals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SpawnerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TerrainTextureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TerrainTextureManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TextureCompassFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TextureFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TextureFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TexturedQuad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TexturedQuad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntityChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntityChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntityFurnace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntityFurnace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntityMobSpawnerRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/TileEntityMobSpawnerRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Vec3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/Vec3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldBlockPositionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldGenClay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldGenDungeons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldGenDungeons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldGenReed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/WorldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teavm/java/net/lax1dude/eaglercraft/internal/teavm/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teavm/java/net/lax1dude/eaglercraft/internal/teavm/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wasm_gc_teavm/javascript/OfflineDownloadTemplate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wasm_gc_teavm/javascript/OfflineDownloadTemplate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wasm_gc_teavm/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wasm_gc_teavm/javascript/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/lwjgl">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eaglercraft" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eaglercraft" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eaglercraft" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eaglercraft" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="teavm" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eaglercraft" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;catfoolyou&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:catfoolyou/Alpha-1.1.2_01.git&quot;,
+    &quot;accountId&quot;: &quot;a09525ea-66d3-4742-829e-ae36df59f5c4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2woRDV5jQfWyARSYIx902ogso97" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LWJGLEntryPoint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Alpha-1.1.2_01 [generateJavaScript].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Alpha-1.1.2_01 [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Alpha-1.1.2_01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administartor/Alpha-1.1.2_01/lwjgl-rundir&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15234375&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administartor\Alpha-1.1.2_01\src\main\java\net\lax1dude\eaglercraft" />
+      <recent name="C:\Users\Administartor\Alpha-1.1.2_01\src\main\java\net" />
+      <recent name="C:\Users\Administartor\Alpha-1.1.2_01\src\lwjgl\java" />
+      <recent name="$PROJECT_DIR$/src/main/java/net/lax1dude/eaglercraft/profile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administartor\Alpha-1.1.2_01\src\lwjgl\java\net" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.lax1dude.eaglercraft" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Alpha-1.1.2_01 [generateJavaScript]">
+    <configuration name="MainClass" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.lax1dude.eaglercraft.internal.MainClass" />
+      <module name="lwjgl" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lwjgl-rundir" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alpha-1.1.2_01 [generateJavaScript]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateJavaScript" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Alpha-1.1.2_01 [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="eaglercraft.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="eaglercraft.test" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Gradle.Alpha-1.1.2_01 [generateJavaScript]" />
+      <item itemvalue="Gradle.Alpha-1.1.2_01 [jar]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Alpha-1.1.2_01 [generateJavaScript]" />
+        <item itemvalue="Gradle.Alpha-1.1.2_01 [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf56493-3337-4b11-98fb-a5d499cdbe34" name="Changes" comment="" />
+      <created>1746705821374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746705821374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
