@@ -2,7 +2,7 @@ package net.minecraft.src;
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Random;
+import net.lax1dude.eaglercraft.Random;
 
 import net.lax1dude.eaglercraft.EagRuntime;
 import org.lwjgl.opengl.GL11;

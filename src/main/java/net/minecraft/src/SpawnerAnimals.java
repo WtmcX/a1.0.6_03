@@ -7,10 +7,10 @@ import java.util.Set;
 public class SpawnerAnimals {
 	private int maxSpawns;
 	private Class entityType;
-	private Class[] entities;
+	private EntityConstructor[] entities;
 	private Set eligibleChunksForSpawning = new HashSet();
 
-	public SpawnerAnimals(int var1, Class var2, Class[] var3) {
+	public SpawnerAnimals(int var1, Class var2, EntityConstructor[] var3) {
 		this.maxSpawns = var1;
 		this.entityType = var2;
 		this.entities = var3;
@@ -20,7 +20,7 @@ public class SpawnerAnimals {
 		int var2 = var1.countEntities(this.entityType);
 		if(var2 < this.maxSpawns) {
 			for(int var3 = 0; var3 < 3; ++var3) {
-				this.performSpawning(var1, 1, (IProgressUpdate)null);
+				this.performSpawning(var1, 1, null);
 			}
 		}
 
@@ -101,7 +101,8 @@ public class SpawnerAnimals {
 							if(var24 >= 576.0F) {
 								EntityLiving var29;
 								try {
-									var29 = (EntityLiving)this.entities[var7].getConstructor(new Class[]{World.class}).newInstance(new Object[]{var1});
+									var29 = this.entities[var7].createEntity(var1);
+
 								} catch (Exception var25) {
 									var25.printStackTrace();
 									return var4;
@@ -111,6 +112,12 @@ public class SpawnerAnimals {
 								if(var29.getCanSpawnHere()) {
 									++var4;
 									var1.spawnEntityInWorld(var29);
+									if(var29 instanceof EntitySpider && var1.rand.nextInt(100) == 0) {
+										EntitySkeleton var30 = new EntitySkeleton(var1);
+										var30.setLocationAndAngles((double)var18, (double)var19, (double)var20, var29.rotationYaw, 0.0F);
+										var1.spawnEntityInWorld(var30);
+										var30.mountEntity(var29);
+									}
 								}
 							}
 						}
@@ -118,5 +125,9 @@ public class SpawnerAnimals {
 				}
 			}
 		}
+	}
+
+	public interface EntityConstructor<T extends EntityLiving> {
+		T createEntity(World world);
 	}
 }

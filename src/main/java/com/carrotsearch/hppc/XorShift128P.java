@@ -9,7 +9,7 @@
  */
 package com.carrotsearch.hppc;
 
-import java.util.Random;
+import net.lax1dude.eaglercraft.Random;
 
 /**
  * A fast pseudo-random number generator. For simplicity, we do not implement

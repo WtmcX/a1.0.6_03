@@ -3,7 +3,7 @@ package net.minecraft.src;
 class SpawnerMonsters extends SpawnerAnimals {
 	final PlayerControllerSP playerController;
 
-	SpawnerMonsters(PlayerControllerSP var1, int var2, Class var3, Class[] var4) {
+	SpawnerMonsters(PlayerControllerSP var1, int var2, Class var3, EntityConstructor[] var4) {
 		super(var2, var3, var4);
 		this.playerController = var1;
 	}
