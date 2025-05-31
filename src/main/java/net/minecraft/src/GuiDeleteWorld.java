@@ -1,7 +1,5 @@
 package net.minecraft.src;
 
-import java.io.File;
-
 import net.lax1dude.eaglercraft.internal.vfs2.VFile2;
 import net.minecraft.client.Minecraft;
 

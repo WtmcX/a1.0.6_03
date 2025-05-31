@@ -31,14 +31,14 @@ public class GameSettings {
 	public KeyBinding t = new KeyBinding("Load location", 19);
 	public KeyBinding[] keyBindings = new KeyBinding[]{this.keyBindForward, this.keyBindLeft, this.keyBindBack, this.keyBindRight, this.keyBindJump, this.keyBindDrop, this.keyBindInventory, this.keyBindChat, this.keyBindToggleFog, this.s, this.t};
 	protected Minecraft mc;
-	private VFile2 optionsFile;
+	private VFile2 optionsVFile2;
 	public int numberOfOptions = 10;
 	public int difficulty = 2;
 	public boolean thirdPersonView = false;
 
 	public GameSettings(Minecraft var1, VFile2 var2) {
 		this.mc = var1;
-		this.optionsFile = new VFile2(var2, "options.txt");
+		this.optionsVFile2 = new VFile2(var2, "options.txt");
 		this.loadOptions();
 	}
 
@@ -105,11 +105,11 @@ public class GameSettings {
 
 	public void loadOptions() {
 		try {
-			if(!this.optionsFile.exists()) {
+			if(!this.optionsVFile2.exists()) {
 				return;
 			}
 
-			BufferedReader var1 = new BufferedReader(new InputStreamReader(this.optionsFile.getInputStream()));
+			BufferedReader var1 = new BufferedReader(new InputStreamReader(this.optionsVFile2.getInputStream()));
 			String var2 = "";
 
 			while(true) {
@@ -175,7 +175,7 @@ public class GameSettings {
 
 	public void saveOptions() {
 		try {
-			PrintWriter var1 = new PrintWriter(new OutputStreamWriter(this.optionsFile.getOutputStream()));
+			PrintWriter var1 = new PrintWriter(new OutputStreamWriter(this.optionsVFile2.getOutputStream()));
 			var1.println("music:" + this.a);
 			var1.println("sound:" + this.b);
 			var1.println("invertYMouse:" + this.invertMouse);

@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
-import java.io.File;
+
+import net.lax1dude.eaglercraft.internal.vfs2.VFile2;
 
 public class WorldClient extends World {
 	private NetClientHandler sendQueue;
@@ -19,7 +20,7 @@ public class WorldClient extends World {
 		this.sendQueue.processReadPackets();
 	}
 
-	protected IChunkProvider getChunkProvider(File var1) {
+	protected IChunkProvider getChunkProvider(VFile2 var1) {
 		this.clientChunkProvider = new ChunkProviderClient(this);
 		return this.clientChunkProvider;
 	}

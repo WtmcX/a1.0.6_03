@@ -4,19 +4,20 @@ import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 
+import net.lax1dude.eaglercraft.internal.vfs2.VFile2;
 import net.lax1dude.eaglercraft.internal.vfs2.VFileOutputStream;
 import net.minecraft.client.Minecraft;
 
 public class ThreadDownloadResources extends Thread {
-	public File resourcesFolder;
+	public VFile2 resourcesFolder;
 	private Minecraft mc;
 	private boolean closing = false;
 
-	public ThreadDownloadResources(File var1, Minecraft var2) {
+	public ThreadDownloadResources(VFile2 var1, Minecraft var2) {
 		this.mc = var2;
 		this.setName("Resource download thread");
 		this.setDaemon(true);
-		this.resourcesFolder = new File(var1, "resources/");
+		this.resourcesFolder = new VFile2(var1, "resources/");
 		if(!this.resourcesFolder.exists()) {
 			throw new RuntimeException("The working directory could not be created: " + this.resourcesFolder);
 		}
@@ -52,16 +53,16 @@ public class ThreadDownloadResources extends Thread {
 
 	}
 
-	private void loadResource(File var1, String var2) {
-		File[] var3 = var1.listFiles();
-
-		for(int var4 = 0; var4 < var3.length; ++var4) {
-			if(var3[var4].isDirectory()) {
-				this.loadResource(var3[var4], var2 + var3[var4].getName() + "/");
-			} else {
-				this.mc.installResource(var2 + var3[var4].getName(), var3[var4]);
-			}
-		}
+	private void loadResource(VFile2 var1, String var2) {
+//		VFile2[] var3 = var1.listFiles();
+//
+//		for(int var4 = 0; var4 < var3.length; ++var4) {
+//			if(var3[var4].isDirectory()) {
+//				this.loadResource(var3[var4], var2 + var3[var4].getName() + "/");
+//			} else {
+//				this.mc.installResource(var2 + var3[var4].getName(), var3[var4]);
+//			}
+//		}
 
 	}
 
@@ -72,7 +73,7 @@ public class ThreadDownloadResources extends Thread {
 			int var5 = Integer.parseInt(var3[1]);
 			long var6 = Long.parseLong(var3[2]);
 			var6 /= 2L;
-			File var8 = new File(this.resourcesFolder, var4);
+			VFile2 var8 = new VFile2(this.resourcesFolder, var4);
 			if(!var8.exists() || var8.length() != (long)var5) {
 				String var9 = var4.replaceAll(" ", "%20");
 				this.downloadResource(new URL(var1, var9), var8, var5);
@@ -88,22 +89,22 @@ public class ThreadDownloadResources extends Thread {
 
 	}
 
-	private void downloadResource(URL var1, File var2, int var3) throws IOException {
-		byte[] var4 = new byte[4096];
-		DataInputStream var5 = new DataInputStream(var1.openStream());
-		DataOutputStream var6 = new DataOutputStream(new FileOutputStream(var2));
-		boolean var7 = false;
-
-		do {
-			int var8 = var5.read(var4);
-			if(var8 < 0) {
-				var5.close();
-				var6.close();
-				return;
-			}
-
-			var6.write(var4, 0, var8);
-		} while(!this.closing);
+	private void downloadResource(URL var1, VFile2 var2, int var3) throws IOException {
+//		byte[] var4 = new byte[4096];
+//		DataInputStream var5 = new DataInputStream(var1.openStream());
+//		DataOutputStream var6 = new DataOutputStream(new FileOutputStream(var2));
+//		boolean var7 = false;
+//
+//		do {
+//			int var8 = var5.read(var4);
+//			if(var8 < 0) {
+//				var5.close();
+//				var6.close();
+//				return;
+//			}
+//
+//			var6.write(var4, 0, var8);
+//		} while(!this.closing);
 
 	}
 

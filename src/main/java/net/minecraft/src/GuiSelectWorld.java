@@ -12,6 +12,8 @@ public class GuiSelectWorld extends GuiScreen {
 
 	public GuiSelectWorld(GuiScreen var1) {
 		this.parentScreen = var1;
+		VFile2 dir = Minecraft.getMinecraftDir();
+		System.out.println("Minecraft directory: " + dir.getPath());
 	}
 
 	public void initGui() {
@@ -56,13 +58,22 @@ public class GuiSelectWorld extends GuiScreen {
 	}
 
 	public void selectWorld(int var1) {
-		this.mc.displayGuiScreen((GuiScreen)null);
-		if(!this.selected) {
+		this.mc.displayGuiScreen(null);
+		System.out.println("Attempting to load World" + var1);
+		if (!this.selected) {
 			this.selected = true;
-			this.mc.startWorld("World" + var1);
-			this.mc.displayGuiScreen((GuiScreen)null);
+			this.mc.playerController = new PlayerControllerSP(this.mc);
+			try {
+				this.mc.startWorld("World" + var1);
+				System.out.println("Successfully started World" + var1);
+			} catch (Exception e) {
+				e.printStackTrace();
+				System.out.println("Failed to start World" + var1);
+			}
+			this.mc.displayGuiScreen(null);
 		}
 	}
+
 
 	public void drawScreen(int var1, int var2, float var3) {
 		this.drawDefaultBackground();

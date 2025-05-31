@@ -4,56 +4,7 @@ package net.minecraft.client;
 import net.lax1dude.eaglercraft.EagRuntime;
 import net.lax1dude.eaglercraft.internal.vfs2.VFile2;
 import net.lax1dude.eaglercraft.profile.EaglerProfile;
-import net.minecraft.src.AxisAlignedBB;
-import net.minecraft.src.Block;
-import net.minecraft.src.EffectRenderer;
-import net.minecraft.src.EntityPlayerSP;
-import net.minecraft.src.EntityRenderer;
-import net.minecraft.src.EnumOS;
-import net.minecraft.src.FontRenderer;
-import net.minecraft.src.GameSettings;
-import net.minecraft.src.GameWindowListener;
-import net.minecraft.src.GuiConnecting;
-import net.minecraft.src.GuiErrorScreen;
-import net.minecraft.src.GuiGameOver;
-import net.minecraft.src.GuiIngame;
-import net.minecraft.src.GuiIngameMenu;
-import net.minecraft.src.GuiInventory;
-import net.minecraft.src.GuiMainMenu;
-import net.minecraft.src.GuiScreen;
-import net.minecraft.src.ItemRenderer;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.LoadingScreenRenderer;
-import net.minecraft.src.MathHelper;
-import net.minecraft.src.MinecraftError;
-import net.minecraft.src.MinecraftImpl;
-import net.minecraft.src.ModelBiped;
-import net.minecraft.src.MouseHelper;
-import net.minecraft.src.MovementInputFromOptions;
-import net.minecraft.src.MovingObjectPosition;
-import net.minecraft.src.OSMap;
-import net.minecraft.src.PlayerController;
-import net.minecraft.src.PlayerControllerCreative;
-import net.minecraft.src.PlayerControllerSP;
-import net.minecraft.src.RenderEngine;
-import net.minecraft.src.RenderGlobal;
-import net.minecraft.src.RenderManager;
-import net.minecraft.src.ScaledResolution;
-import net.minecraft.src.Session;
-import net.minecraft.src.SoundManager;
-import net.minecraft.src.Tessellator;
-import net.minecraft.src.TextureFlamesFX;
-import net.minecraft.src.TextureLavaFX;
-import net.minecraft.src.TextureLavaFlowFX;
-import net.minecraft.src.TextureWaterFX;
-import net.minecraft.src.TextureWaterFlowFX;
-import net.minecraft.src.ThreadDownloadResources;
-import net.minecraft.src.ThreadSleepForever;
-import net.minecraft.src.Timer;
-import net.minecraft.src.UnexpectedThrowable;
-import net.minecraft.src.Vec3D;
-import net.minecraft.src.World;
-import net.minecraft.src.WorldRenderer;
+import net.minecraft.src.*;
 import org.lwjgl.LWJGLException;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
@@ -61,7 +12,6 @@ import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;
 
-import java.io.File;
 
 public class Minecraft implements Runnable {
 	public PlayerController playerController = new PlayerControllerSP(this);
@@ -169,7 +119,7 @@ public class Minecraft implements Runnable {
 		this.checkGLError("Post startup");
 		this.ingameGUI = new GuiIngame(this);
 
-		//Add a profile GUI ASAP
+		//Add a proVFile2 GUI ASAP
 		EaglerProfile.setName("Socket");
 		if(this.serverName != null) {
 			this.displayGuiScreen(new GuiConnecting(this, this.serverName, this.serverPort));
@@ -235,27 +185,27 @@ public class Minecraft implements Runnable {
 		return minecraftDir;
 	}
 
-	public static File getAppDir(String var0) {
+	public static VFile2 getAppDir(String var0) {
 		String var1 = System.getProperty("user.home", ".");
-		File var2;
+		VFile2 var2;
 		switch(OSMap.osValues[getOs().ordinal()]) {
 		case 1:
 		case 2:
-			var2 = new File(var1, '.' + var0 + '/');
+			var2 = new VFile2(var1, '.' + var0 + '/');
 			break;
 		case 3:
 			String var3 = System.getenv("APPDATA");
 			if(var3 != null) {
-				var2 = new File(var3, "." + var0 + '/');
+				var2 = new VFile2(var3, "." + var0 + '/');
 			} else {
-				var2 = new File(var1, '.' + var0 + '/');
+				var2 = new VFile2(var1, '.' + var0 + '/');
 			}
 			break;
 		case 4:
-			var2 = new File(var1, "Library/Application Support/" + var0);
+			var2 = new VFile2(var1, "Library/Application Support/" + var0);
 			break;
 		default:
-			var2 = new File(var1, var0 + '/');
+			var2 = new VFile2(var1, var0 + '/');
 		}
 
 		if(!var2.exists()) {
@@ -328,7 +278,9 @@ public class Minecraft implements Runnable {
 			while(this.running ) {
 				AxisAlignedBB.clearBoundingBoxPool();
 				Vec3D.initialize();
-
+				if(Display.isCloseRequested()) {
+					this.shutdown();
+				}
 				if(this.isGamePaused && this.theWorld != null) {
 					float var4 = this.timer.renderPartialTicks;
 					this.timer.updateTimer();
@@ -403,11 +355,24 @@ public class Minecraft implements Runnable {
 			this.theWorld = null;
 			var12.printStackTrace();
 		} finally {
-			//this.shutdownMinecraftApplet();
+			this.shutdownMinecraftApplet();
 		}
 
 	}
 
+	public void shutdownMinecraftApplet() {
+		System.out.println("Bye!");
+		this.changeWorld1(null);
+
+		try {
+			GLAllocation.deleteTexturesAndDisplayLists();
+		} catch (Exception var6) {
+		}
+
+		this.sndManager.closeMinecraft();
+		EagRuntime.exit();
+		System.gc();
+	}
 	private void displayDebugInfo() {
 		if(this.prevFrameTime == -1L) {
 			this.prevFrameTime = System.nanoTime();
@@ -897,7 +862,7 @@ public class Minecraft implements Runnable {
 		this.theWorld.dropOldChunks();
 	}
 
-	public void installResource(String var1, File var2) {
+	public void installResource(String var1, VFile2 var2) {
 		int var3 = var1.indexOf("/");
 		String var4 = var1.substring(0, var3);
 		var1 = var1.substring(var3 + 1);

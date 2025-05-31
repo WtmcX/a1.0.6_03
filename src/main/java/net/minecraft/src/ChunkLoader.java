@@ -16,7 +16,7 @@ public class ChunkLoader implements IChunkLoader {
 		this.createIfNecessary = var2;
 	}
 
-	private String chunkFileForXZ(int var1, int var2) {
+	private String chunkVFile2ForXZ(int var1, int var2) {
 		int unsignedX = var1 + 1900000;
 		int unsignedZ = var2 + 1900000;
 
@@ -30,7 +30,7 @@ public class ChunkLoader implements IChunkLoader {
 	}
 
 	public Chunk loadChunk(World var1, int var2, int var3){
-		VFile2 var4 = new VFile2(this.saveDir, this.chunkFileForXZ(var2, var3) + ".dat");
+		VFile2 var4 = new VFile2(this.saveDir, this.chunkVFile2ForXZ(var2, var3) + ".dat");
 		if(var4 != null && var4.exists()) {
 			try {
 				NBTTagCompound var6;
@@ -38,18 +38,18 @@ public class ChunkLoader implements IChunkLoader {
 					var6 = CompressedStreamTools.readCompressed(is);
 				}
 				if(!var6.hasKey("Level")) {
-					System.out.println("Chunk file at " + var2 + "," + var3 + " is missing level data, skipping");
+					System.out.println("Chunk VFile2 at " + var2 + "," + var3 + " is missing level data, skipping");
 					return null;
 				}
 
 				if(!var6.getCompoundTag("Level").hasKey("Blocks")) {
-					System.out.println("Chunk file at " + var2 + "," + var3 + " is missing block data, skipping");
+					System.out.println("Chunk VFile2 at " + var2 + "," + var3 + " is missing block data, skipping");
 					return null;
 				}
 
 				Chunk var7 = loadChunkIntoWorldFromCompound(var1, var6.getCompoundTag("Level"));
 				if(!var7.isAtLocation(var2, var3)) {
-					System.out.println("Chunk file at " + var2 + "," + var3 + " is in the wrong location; relocating. (Expected " + var2 + ", " + var3 + ", got " + var7.xPosition + ", " + var7.zPosition + ")");
+					System.out.println("Chunk VFile2 at " + var2 + "," + var3 + " is in the wrong location; relocating. (Expected " + var2 + ", " + var3 + ", got " + var7.xPosition + ", " + var7.zPosition + ")");
 					var6.setInteger("xPos", var2);
 					var6.setInteger("zPos", var3);
 					var7 = loadChunkIntoWorldFromCompound(var1, var6.getCompoundTag("Level"));
@@ -64,7 +64,7 @@ public class ChunkLoader implements IChunkLoader {
 		return null;
 	}
 	public void saveChunk(World var1, Chunk var2) throws IOException {
-		VFile2 var3 = new VFile2(this.saveDir, this.chunkFileForXZ(var2.xPosition, var2.zPosition) + ".dat");
+		VFile2 var3 = new VFile2(this.saveDir, this.chunkVFile2ForXZ(var2.xPosition, var2.zPosition) + ".dat");
 		if(var3.exists()) {
 			var1.sizeOnDisk -= var3.length();
 		}

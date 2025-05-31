@@ -6,7 +6,7 @@ public class RenderPlayer extends RenderLiving {
 	private ModelBiped modelBipedMain = (ModelBiped)this.mainModel;
 	private ModelBiped modelArmorChestplate = new ModelBiped(1.0F);
 	private ModelBiped modelArmor = new ModelBiped(0.5F);
-	private static final String[] armorFilenamePrefix = new String[]{"cloth", "chain", "iron", "diamond", "gold"};
+	private static final String[] armorVFile2namePrefix = new String[]{"cloth", "chain", "iron", "diamond", "gold"};
 
 	public RenderPlayer() {
 		super(new ModelBiped(0.0F), 0.5F);
@@ -18,7 +18,7 @@ public class RenderPlayer extends RenderLiving {
 			Item var4 = var3.getItem();
 			if(var4 instanceof ItemArmor) {
 				ItemArmor var5 = (ItemArmor)var4;
-				this.loadTexture("/armor/" + armorFilenamePrefix[var5.renderIndex] + "_" + (var2 == 2 ? 2 : 1) + ".png");
+				this.loadTexture("/armor/" + armorVFile2namePrefix[var5.renderIndex] + "_" + (var2 == 2 ? 2 : 1) + ".png");
 				ModelBiped var6 = var2 == 2 ? this.modelArmor : this.modelArmorChestplate;
 				var6.bipedHead.showModel = var2 == 0;
 				var6.bipedHeadwear.showModel = var2 == 0;

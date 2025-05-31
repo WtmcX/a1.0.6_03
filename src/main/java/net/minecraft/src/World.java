@@ -1,6 +1,5 @@
 package net.minecraft.src;
 
-
 import net.lax1dude.eaglercraft.internal.vfs2.VFile2;
 
 import java.io.*;
@@ -8,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
-import net.lax1dude.eaglercraft.Random;
+import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -34,7 +33,7 @@ public class World implements IBlockAccess {
 	public List playerEntities;
 	public int difficultySetting;
 	public Object fontRenderer;
-	public Random rand;
+	public net.lax1dude.eaglercraft.Random rand;
 	public int spawnX;
 	public int spawnY;
 	public int spawnZ;
@@ -57,6 +56,18 @@ public class World implements IBlockAccess {
 		VFile2 var2 = new VFile2(var0, "saves");
 		VFile2 var3 = new VFile2(var2, var1);
 		VFile2 var4 = new VFile2(var3, "level.dat");
+		if(var4.exists()) {
+			try {
+				NBTTagCompound var5;
+				try (InputStream is = var4.getInputStream()) {
+					var5 = CompressedStreamTools.readCompressed(is);
+				}
+				NBTTagCompound var6 = var5.getCompoundTag("Data");
+				return var6;
+			} catch (Exception var7) {
+				var7.printStackTrace();
+			}
+		}
 
 		return null;
 	}
@@ -65,15 +76,15 @@ public class World implements IBlockAccess {
 		VFile2 var2 = new VFile2(var0, "saves");
 		VFile2 var3 = new VFile2(var2, var1);
 		if(var3.exists()) {
-			deleteWorldVFile2s((VFile2[]) var3.listFiles(false).toArray(new VFile2[0]));
+			deleteWorldFiles((VFile2[]) var3.listFiles(true).toArray());
 			var3.delete();
 		}
 	}
 
-	private static void deleteWorldVFile2s(VFile2[] var0) {
+	private static void deleteWorldFiles(VFile2[] var0) {
 		for(int var1 = 0; var1 < var0.length; ++var1) {
 //			if(var0[var1].isDirectory()) {
-//				deleteWorldVFile2s((VFile2[]) var0[var1].listVFile2s(true).toArray());
+//				deleteWorldFiles((VFile2[]) var0[var1].listFiles(true).toArray());
 //			}
 			var0[var1].delete();
 		}
@@ -102,7 +113,7 @@ public class World implements IBlockAccess {
 		this.lockTimestamp = System.currentTimeMillis();
 		this.autosavePeriod = 4000;
 		this.playerEntities = new ArrayList();
-		this.rand = new Random();
+		this.rand = new net.lax1dude.eaglercraft.Random();
 		this.isNewWorld = false;
 		this.worldAccesses = new ArrayList();
 		this.randomSeed = 0L;
@@ -136,7 +147,7 @@ public class World implements IBlockAccess {
 		this.lockTimestamp = System.currentTimeMillis();
 		this.autosavePeriod = 4000;
 		this.playerEntities = new ArrayList();
-		this.rand = new Random();
+		this.rand = new net.lax1dude.eaglercraft.Random();
 		this.isNewWorld = false;
 		this.worldAccesses = new ArrayList();
 		this.randomSeed = 0L;
@@ -171,13 +182,12 @@ public class World implements IBlockAccess {
 				if(var7.hasKey("Player")) {
 					this.nbtCompoundPlayer = var7.getCompoundTag("Player");
 				}
-			} catch (Exception var8) {
-				var8.printStackTrace();
+			} catch (Exception var11) {
+				var11.printStackTrace();
 			}
 		} else {
 			this.snowCovered = this.rand.nextInt(4) == 0;
 		}
-
 
 		boolean var15 = false;
 		if(this.randomSeed == 0L) {
@@ -808,12 +818,6 @@ public class World implements IBlockAccess {
 	public void playSoundEffect(double var1, double var3, double var5, String var7, float var8, float var9) {
 		for(int var10 = 0; var10 < this.worldAccesses.size(); ++var10) {
 			((IWorldAccess)this.worldAccesses.get(var10)).playSound(var7, var1, var3, var5, var8, var9);
-		}
-
-	}
-
-	public void playRecord(String var1, int var2, int var3, int var4) {
-		for(int var5 = 0; var5 < this.worldAccesses.size(); ++var5) {
 		}
 
 	}
@@ -1628,7 +1632,7 @@ public class World implements IBlockAccess {
 
 	public void randomDisplayUpdates(int var1, int var2, int var3) {
 		byte var4 = 16;
-		Random var5 = new Random();
+		net.lax1dude.eaglercraft.Random var5 = new net.lax1dude.eaglercraft.Random();
 
 		for(int var6 = 0; var6 < 1000; ++var6) {
 			int var7 = var1 + this.rand.nextInt(var4) - this.rand.nextInt(var4);
@@ -1688,7 +1692,6 @@ public class World implements IBlockAccess {
 		}
 
 		for(int var5 = 0; var5 < this.worldAccesses.size(); ++var5) {
-
 		}
 
 	}
@@ -1860,7 +1863,7 @@ public class World implements IBlockAccess {
 	public void checkSessionLock() {
 //		try {
 //			VFile2 var1 = new VFile2(this.saveDirectory, "session.lock");
-//			DataInputStream var2 = new DataInputStream(new VFile2InputStream(var1));
+//			DataInputStream var2 = new DataInputStream(new FileInputStream(var1));
 //
 //			try {
 //				if(var2.readLong() != this.lockTimestamp) {
