@@ -781,26 +781,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LWJGLEntryPoint.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Alpha-1.1.2_01 [generateJavaScript].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Alpha-1.1.2_01 [jar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build Alpha-1.1.2_01.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administartor/Alpha-1.1.2_01/lwjgl-rundir&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15234375&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LWJGLEntryPoint.executor": "Run",
+    "Application.MainClass.executor": "Debug",
+    "Application.Unnamed.executor": "Run",
+    "Gradle.Alpha-1.1.2_01 [generateJavaScript].executor": "Run",
+    "Gradle.Alpha-1.1.2_01 [jar].executor": "Run",
+    "Gradle.Build Alpha-1.1.2_01.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administartor/Alpha-1.1.2_01/lwjgl-rundir",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15234375",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.updates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administartor\Alpha-1.1.2_01\src\main\java\net\lax1dude\eaglercraft" />
@@ -815,7 +815,7 @@
       <recent name="net.lax1dude.eaglercraft" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Alpha-1.1.2_01 [generateJavaScript]">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="MainClass" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.lax1dude.eaglercraft.internal.MainClass" />
       <module name="lwjgl" />

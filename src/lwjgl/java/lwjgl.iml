@@ -19,7 +19,9 @@
         </NATIVE>
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/../../../lwjgl-rundir" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../lwjgl-rundir" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="eaglercraft.main" />
   </component>
 </module>
