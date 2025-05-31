@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6bf56493-3337-4b11-98fb-a5d499cdbe34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GameSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiIngame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiIngame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/GuiOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/EaglercraftX_1.8_Offline_International.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/EaglercraftX_1.8_Offline_International.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/EaglercraftX_1.8_Offline_en_US.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/EaglercraftX_1.8_Offline_en_US.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/assets.epk" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/assets.epk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/classes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/classes.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SoundManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/src/SoundManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LWJGLEntryPoint.executor": "Run",
-    "Application.MainClass.executor": "Debug",
+    "Application.MainClass.executor": "Run",
     "Application.Unnamed.executor": "Run",
     "Gradle.Alpha-1.1.2_01 [generateJavaScript].executor": "Run",
     "Gradle.Alpha-1.1.2_01 [jar].executor": "Run",
@@ -123,7 +127,7 @@
       <recent name="net.lax1dude.eaglercraft" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Alpha-1.1.2_01 [generateJavaScript]">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="MainClass" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.lax1dude.eaglercraft.internal.MainClass" />
       <module name="lwjgl" />

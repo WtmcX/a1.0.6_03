@@ -105,7 +105,7 @@ public class Minecraft implements Runnable {
 		GL11.glMatrixMode(GL11.GL_MODELVIEW);
 		this.checkGLError("Startup");
 //		this.glCapabilities = new OpenGlCapsChecker();
-		this.sndManager.loadSoundSettings(this.options);
+		this.sndManager.loadSoundSettings();
 		this.renderEngine.registerTextureFX(this.textureLavaFX);
 		this.renderEngine.registerTextureFX(this.textureWaterFX);
 		this.renderEngine.registerTextureFX(new TextureWaterFlowFX());
