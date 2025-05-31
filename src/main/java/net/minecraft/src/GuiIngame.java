@@ -151,6 +151,9 @@ public class GuiIngame extends Gui {
 			this.drawString(var8, var21, var6 - var8.getStringWidth(var21) - 2, 12, 14737632);
 		} else {
 			var8.drawStringWithShadow("Minecraft Alpha v1.0.6_03", 2, 2, 16777215);
+			if (mc.options.showCredit) {
+				var8.drawStringWithShadow("Made By EymenWSMC", 2, 12, 16777215);
+			}
 		}
 
 		byte var23 = 10;
