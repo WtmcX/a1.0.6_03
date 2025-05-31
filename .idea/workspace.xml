@@ -120,7 +120,7 @@
       <recent name="net.lax1dude.eaglercraft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Gradle.Alpha-1.1.2_01 [generateJavaScript]">
     <configuration name="MainClass" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.lax1dude.eaglercraft.internal.MainClass" />
       <module name="lwjgl" />
