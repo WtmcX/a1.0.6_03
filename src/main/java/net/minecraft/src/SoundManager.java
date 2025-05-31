@@ -11,6 +11,7 @@ import net.lax1dude.eaglercraft.internal.IAudioCacheLoader;
 import net.lax1dude.eaglercraft.internal.IAudioHandle;
 import net.lax1dude.eaglercraft.internal.IAudioResource;
 import net.lax1dude.eaglercraft.internal.PlatformAudio;
+import net.minecraft.client.Minecraft;
 import net.peyton.eagler.minecraft.AudioUtils;
 
 public class SoundManager {
@@ -91,15 +92,54 @@ public class SoundManager {
 	}
 
 	public void playSound(String var1, float var2, float var3, float var4, float var5, float var6) {
-		if(DEFAULT_SOUND_VOLUME != 0.0F) {
-			if(var5 > 0.0F) {
+		if (Minecraft.getMinecraft().options.a && Minecraft.getMinecraft().options.b) {
+			if (DEFAULT_SOUND_VOLUME != 0.0F) {
+				if (var5 > 0.0F) {
+					IAudioResource trk;
+					if (var1 == null) return;
+
+					var1 = var1.replace(".", "/");
+
+					int randNum = AudioUtils.getRandomSound(var1);
+					if (randNum == 0) {
+						return;
+					}
+					String soundName = "/sound/" + var1 + (randNum != -1 ? randNum : "") + ".ogg";
+					if (!sounds.containsKey(soundName)) {
+						if (EagRuntime.getPlatformType() != EnumPlatformType.DESKTOP) {
+							trk = PlatformAudio.loadAudioDataNew(soundName, true, browserResourceLoader);
+						} else {
+							trk = PlatformAudio.loadAudioData(soundName, true);
+						}
+						if (trk != null) {
+							sounds.put(soundName, trk);
+						}
+					} else {
+						trk = sounds.get(soundName);
+					}
+
+					if (trk != null) {
+						PlatformAudio.beginPlayback(trk, var2, var3, var4, var5 * DEFAULT_SOUND_VOLUME, var6, false);
+					}
+				}
+			}
+		}
+	}
+
+	public void playSoundFX(String var1, float var2, float var3) {
+		if (Minecraft.getMinecraft().options.a && Minecraft.getMinecraft().options.b) {
+			if (DEFAULT_SOUND_VOLUME != 0.0F) {
+				if (var2 > 1.0F) {
+					var2 = 1.0F;
+				}
+				var2 *= 0.25F;
+
 				IAudioResource trk;
-				if(var1 == null) return;
+				if (var1 == null) return;
 
 				var1 = var1.replace(".", "/");
-
-				int randNum = AudioUtils.getRandomSound(var1);
-				if(randNum == 0) {
+				int randNum = AudioUtils.getRandomSound(var1 + ".ogg");
+				if (randNum == 0) {
 					return;
 				}
 				String soundName = "/sound/" + var1 + (randNum != -1 ? randNum : "") + ".ogg";
@@ -115,44 +155,9 @@ public class SoundManager {
 				} else {
 					trk = sounds.get(soundName);
 				}
-
-				if(trk != null) {
-					PlatformAudio.beginPlayback(trk, var2, var3, var4, var5 * DEFAULT_SOUND_VOLUME, var6, false);
-				}
-			}
-		}
-	}
-
-	public void playSoundFX(String var1, float var2, float var3) {
-		if(DEFAULT_SOUND_VOLUME != 0.0F) {
-			if(var2 > 1.0F) {
-				var2 = 1.0F;
-			}
-			var2 *= 0.25F;
-
-			IAudioResource trk;
-			if(var1 == null) return;
-
-			var1 = var1.replace(".", "/");
-			int randNum = AudioUtils.getRandomSound(var1 + ".ogg");
-			if(randNum == 0) {
-				return;
-			}
-			String soundName = "/sound/" + var1 + (randNum != -1 ? randNum : "") + ".ogg";
-			if (!sounds.containsKey(soundName)) {
-				if (EagRuntime.getPlatformType() != EnumPlatformType.DESKTOP) {
-					trk = PlatformAudio.loadAudioDataNew(soundName, true, browserResourceLoader);
-				} else {
-					trk = PlatformAudio.loadAudioData(soundName, true);
-				}
 				if (trk != null) {
-					sounds.put(soundName, trk);
+					PlatformAudio.beginPlaybackStatic(trk, var2 * DEFAULT_SOUND_VOLUME, var3, false);
 				}
-			} else {
-				trk = sounds.get(soundName);
-			}
-			if(trk != null) {
-				PlatformAudio.beginPlaybackStatic(trk, var2 * DEFAULT_SOUND_VOLUME, var3, false);
 			}
 		}
 	}
